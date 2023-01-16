@@ -9,24 +9,30 @@
     <title>Turki.fit</title>
 </head>
 <body>
-    <!-- <div class="up"> -->
     <div class="parent">
-    <!-- <div class=".img"> -->
         <img src="./turki3.jpeg" alt="">
-    <!-- </div> -->
     <div class="data">
  <form action="https://formsubmit.co/nawaftalaat@hotmail.com" method="POST">
+    <h1 style="margin: 10px 0px; color: aliceblue;">استبيان</h1>
+    <select name="subscription" id="subscription" style="text-align: center;">
+        <option value="nnnn" disabled selected>اختار مدة الاشتراك</option>
+        <option value="one month">ريال للشهر<span>300</span></option>
+        <option value="two month">ريال شهرين<span>500</span></option>
+        <option value="three month">ريال ثلاث شهور<span>600</span></option>
+        <option value="six month">ريال ست شهور<span>1000</span></option>
+     </select>
+
      <input type="text" name="name" placeholder="الاسم" required>
      <input type="text" name="age" placeholder="العمر" required>
      <input type="text" name="weight" placeholder="الوزن" required>
      <input type="text" name="tall" placeholder="الطول" required>
      <input type="text" name="health" placeholder="الحالة الصحية" required>
-     <input type="number" name="training" placeholder="عدد ايام التدريب المفضلة في الاسبوع" max="7" min="1" required>
+     <input type="text" name="phone" placeholder="رقم الجوال واتساب" required >
+     <input height="100px" type="number" name="training" placeholder="عدد ايام التدريب المفضلة في الاسبوع" max="7" min="1" required>
      <input type="hidden" name="_next" value="https://https:bright-caramel-950e79.netlify.app//thanks/index.html">
      <button type="submit">Send</button>
 </form>
 </div>
-<!-- </div> -->
 </div>
 </body>
 </html>

@@ -19,17 +19,23 @@ body{
 }
 
 img{
-    width: 100%;
+    /* width: 100%; */
     height: auto;
-    object-fit: cover;
-    max-height: 71vh;
+    object-fit: fill;
+    max-height: 84vh;
+}
+
+@media (max-width:890px) {
+    img{
+        width: 100%;
+    }
 }
 
 .data{
-    width: 100%;
+    width: 500px;
     display: flex;
     justify-content: center;
-    height: 74vh;
+    align-items: center;
 }
 
 form{
@@ -40,13 +46,13 @@ form{
     border: 1px solid transparent;
     justify-content: center;
     align-items: center;
-    height: 308px;
+    height: 390px;
     box-shadow: -8px 10px 37px 8px black;
 }
 
 input{
-    width: 100px;
+    width: 161px;
     margin: 10px 0px;
-    /* background-color: b; */
+   outline: 0;
     text-align: end;
 }
